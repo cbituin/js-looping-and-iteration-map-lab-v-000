@@ -4,7 +4,11 @@ const lowerCaseDrivers = (arr) => {
   return arr.map(val => val.toLowerCase());
 };
 
+function splitStrings(arr) {
+  return arr.map(val => val.split(" "));
+} 
+
 const nameToAttributes = (arr) => {
-  let newArr = arr.map(val => val.split(" "));
+  
   return newArr.map(val => console.log(va));
 };
