@@ -15,3 +15,7 @@ const nameToAttributes = (arr) => {
     }
   })
 };
+
+const attributesToPhrase = (obj) => {
+  
+};
