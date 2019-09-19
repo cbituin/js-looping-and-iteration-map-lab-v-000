@@ -1,5 +1,5 @@
 // Code your solution in this file.
 
-const lowerCaseDrivers = () => {
-  
+const lowerCaseDrivers = (arr) => {
+  arr.map(val => val.toLowerCase);
 };
