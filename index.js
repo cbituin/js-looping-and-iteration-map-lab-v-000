@@ -3,3 +3,7 @@
 const lowerCaseDrivers = (arr) => {
   return arr.map(val => val.toLowerCase());
 };
+
+const nameToAttributes = () => {
+  
+};
