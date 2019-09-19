@@ -18,8 +18,6 @@ const nameToAttributes = (arr) => {
 
 const attributesToPhrase = (obj) => {
   obj.map(objVal => {
-    let newArr = [];
-    newArr.push(`${objVal.name} is from ${objVal.hometown}`);
-    return newArr;
-  });
+    return `${objVal.name} is from ${objVal.hometown}`;
+  })
 };
