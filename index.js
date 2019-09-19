@@ -8,8 +8,8 @@ function splitStrings(arr) {
   return arr.map(val => val.split(" "));
 } 
 
-const nameToAttributes = (splitStrings(arr)) => {
-  arr.map(val => {
+const nameToAttributes = (arr) => {
+  splitStrings(arr).map(val => {
     let newObj = {};
     newObj.firstname = val[0];
     newObj.lastname = val[1];
