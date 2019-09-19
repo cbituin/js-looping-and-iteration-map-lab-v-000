@@ -19,5 +19,5 @@ const nameToAttributes = (arr) => {
 const attributesToPhrase = (obj) => {
   obj.map(objVal => {
     return `${objVal.name} is from ${objVal.hometown}`;
-  })
+  });
 };
