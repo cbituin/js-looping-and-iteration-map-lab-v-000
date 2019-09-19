@@ -9,6 +9,7 @@ const nameToAttributes = (arr) => {
   
     arr.map(val => {
     val.split(" ");
+    console.log(arr);
     let newObj = {};
     newObj.firstname = val[0];
     newObj.lastname = val[1];
