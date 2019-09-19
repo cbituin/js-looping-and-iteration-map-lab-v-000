@@ -5,8 +5,5 @@ const lowerCaseDrivers = (arr) => {
 };
 
 const nameToAttributes = (arr) => {
-  return arr.map(val =>
-    arr.firstname = val.split(" ")[0],
-    arr.lastname = val.split(" ")[1]
-  );
+  
 };
