@@ -9,7 +9,10 @@ function splitStrings(arr) {
 } 
 
 const nameToAttributes = (arr) => {
-  const newObj = newArr.map(val => {
+  arr.map(val => {
+    let newObj = {};
+    newObj.firstname = val[0];
+    newObj.lastname = va;[1];
     
-  }
+  });
 };
