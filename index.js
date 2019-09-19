@@ -13,6 +13,6 @@ const nameToAttributes = (arr) => {
     let newObj = {};
     newObj.firstname = val[0];
     newObj.lastname = val[1];
-    return newObj;
+    console.log(newObj);
   });
 };
