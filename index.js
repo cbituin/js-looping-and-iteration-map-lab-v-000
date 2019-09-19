@@ -6,6 +6,5 @@ const lowerCaseDrivers = (arr) => {
 
 const nameToAttributes = (arr) => {
   let newArr = arr.map(val => val.split(" "));
-  let drivers = {};
-  newArr.map(val => )
+  return newArr.map(val => console.log(val));
 };
